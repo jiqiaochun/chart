@@ -15,6 +15,8 @@
 		5D75584B1D38D120005DD753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7558491D38D120005DD753 /* LaunchScreen.storyboard */; };
 		5D7558561D38D121005DD753 /* chartTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7558551D38D121005DD753 /* chartTestTests.m */; };
 		5D7558611D38D121005DD753 /* chartTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7558601D38D121005DD753 /* chartTestUITests.m */; };
+		5D7558731D38D158005DD753 /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7558701D38D158005DD753 /* JHChart.m */; };
+		5D7558741D38D158005DD753 /* JHRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7558721D38D158005DD753 /* JHRingChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		5D75585C1D38D121005DD753 /* chartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7558601D38D121005DD753 /* chartTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chartTestUITests.m; sourceTree = "<group>"; };
 		5D7558621D38D121005DD753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D75586F1D38D158005DD753 /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
+		5D7558701D38D158005DD753 /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
+		5D7558711D38D158005DD753 /* JHRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRingChart.h; sourceTree = "<group>"; };
+		5D7558721D38D158005DD753 /* JHRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRingChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		5D75583A1D38D120005DD753 /* chartTest */ = {
 			isa = PBXGroup;
 			children = (
+				5D75586E1D38D13F005DD753 /* JHChart */,
 				5D75583E1D38D120005DD753 /* AppDelegate.h */,
 				5D75583F1D38D120005DD753 /* AppDelegate.m */,
 				5D7558411D38D120005DD753 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				5D7558621D38D121005DD753 /* Info.plist */,
 			);
 			path = chartTestUITests;
+			sourceTree = "<group>";
+		};
+		5D75586E1D38D13F005DD753 /* JHChart */ = {
+			isa = PBXGroup;
+			children = (
+				5D75586F1D38D158005DD753 /* JHChart.h */,
+				5D7558701D38D158005DD753 /* JHChart.m */,
+				5D7558711D38D158005DD753 /* JHRingChart.h */,
+				5D7558721D38D158005DD753 /* JHRingChart.m */,
+			);
+			path = JHChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7558731D38D158005DD753 /* JHChart.m in Sources */,
 				5D7558431D38D120005DD753 /* ViewController.m in Sources */,
 				5D7558401D38D120005DD753 /* AppDelegate.m in Sources */,
+				5D7558741D38D158005DD753 /* JHRingChart.m in Sources */,
 				5D75583D1D38D120005DD753 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
